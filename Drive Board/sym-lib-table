@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8302DCAR")(type "KiCad")(uri "${KIPRJMOD}/imports/Symbols/DRV8302DCAR.kicad_sym")(options "")(descr ""))
+  (lib (name "CD4051BPWR")(type "KiCad")(uri "${KIPRJMOD}/imports/Symbols/CD4051BPWR.kicad_sym")(options "")(descr ""))
+)
