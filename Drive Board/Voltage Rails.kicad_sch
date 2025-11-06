@@ -5,4 +5,14 @@
 	(uuid "87a3c3c9-dbea-46f2-b092-a051842204b2")
 	(paper "A4")
 	(lib_symbols)
+	(text "Protections circuitry??"
+		(exclude_from_sim no)
+		(at 175.768 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad1c62c1-876f-4fa9-9df4-a4bfb33a436c")
+	)
 )
