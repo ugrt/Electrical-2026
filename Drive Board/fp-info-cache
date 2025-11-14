@@ -1,4 +1,4 @@
-24779655396811509
+24783181000659454
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57526,6 +57526,13 @@ PHOENIX_1984633
 4
 4
 Footprints
+ROVER
+
+
+0
+0
+0
+Footprints
 SKRPADE010_AAL
 
 SKRPADE010 
@@ -57623,6 +57630,13 @@ TSSOP-16
 0
 16
 16
+Footprints
+UGRT_Logo
+
+
+0
+0
+0
 Footprints
 XTAL_ECS-80-8-30Q-VS-TR
 

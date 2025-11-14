@@ -1458,7 +1458,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1479,7 +1479,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1505,7 +1505,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1523,7 +1523,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1561,7 +1561,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2236,7 +2236,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 114.3 60.96 0)
+		(at 114.3 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2246,7 +2246,7 @@
 		)
 		(uuid "cc8b9987-f07f-42c3-886d-da4208f937f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1838 60.96 0)
+			(at 122.1838 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2280,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 114.3 66.04 0)
+		(at 114.3 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2290,7 +2290,7 @@
 		)
 		(uuid "e4fa4d6f-08df-4bbc-a1f8-e32a69f42d76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0024 66.04 0)
+			(at 122.0024 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,72 +2467,6 @@
 			(project ""
 				(path "/3e208003-7c03-4e80-aaa5-209b125e5d65/4b37f0ac-bf6d-4a4a-8ba1-dd7985271430"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 116.84 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e0ec1e7-dda2-46b4-91d8-6ee6b272c4d0")
-		(property "Reference" "#PWR081"
-			(at 116.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 116.84 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb98326d-12fd-496d-aa65-8ac5e1dddfa9")
-		)
-		(instances
-			(project ""
-				(path "/3e208003-7c03-4e80-aaa5-209b125e5d65/4b37f0ac-bf6d-4a4a-8ba1-dd7985271430"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3485,6 +3419,71 @@
 			(project "Drive Board"
 				(path "/3e208003-7c03-4e80-aaa5-209b125e5d65/4b37f0ac-bf6d-4a4a-8ba1-dd7985271430"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85c73e7a-573d-44dd-98b1-32504bf88113")
+		(property "Reference" "#PWR096"
+			(at 116.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.586 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c497496-190c-48a7-9444-3e2e810366e5")
+		)
+		(instances
+			(project "Drive Board"
+				(path "/3e208003-7c03-4e80-aaa5-209b125e5d65/4b37f0ac-bf6d-4a4a-8ba1-dd7985271430"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
