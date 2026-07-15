@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "cdbad6dd-478b-45df-9d3b-b47609a7eafa")
 	(paper "A4")
+	(title_block
+		(title "LM5176 12V Channel")
+		(date "2026-07-15")
+		(rev "1")
+		(company "University of Guelph Robotics Team")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -4477,7 +4483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:XAL1580"
+		(property "Footprint" "Footprints:WE-HCM_1411"
 			(at 157.48 45.72 0)
 			(hide yes)
 			(show_name no)

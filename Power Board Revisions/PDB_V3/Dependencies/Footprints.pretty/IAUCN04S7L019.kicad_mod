@@ -7,11 +7,11 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9b709914-baee-422a-8b6e-08e0f5dcb41d")
+		(uuid "a8115ffc-5de3-4178-89d8-c7bea99ebcd0")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8b629b4a-0767-4cc7-a74b-09aa1ff37903")
+		(uuid "27b1728d-bcb7-4f97-8d2f-3ff11035474a")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "65d828fd-d195-4cd6-bb30-1be88cef2b1e")
+		(uuid "a8528933-5af5-4d61-a144-6acf2e77b14b")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "52cd63c1-c4d4-4be9-8188-aebc6bb298dd")
+		(uuid "29550af1-d703-442f-98e6-fde21e81a474")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "973c08ab-31a8-4557-9606-712eca00a4d8")
+		(uuid "4f8f0e17-0af0-4f5e-a190-6056a3efbe15")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 		(at 0 -1.125)
 		(size 4.41 4.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d69d2454-7642-45ab-b823-28e493172ef4")
+		(uuid "e84773ea-386a-4fb7-8a33-db6d981b6e22")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
@@ -235,13 +235,13 @@
 		(at -0.635 2.995)
 		(size 3.14 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8497cb46-b037-4fc9-96da-509ade110b97")
+		(uuid "bff99337-d217-4a5c-9316-08ea1517b33b")
 	)
 	(pad "3" smd rect
 		(at 1.905 2.995)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7f932ecb-657c-46b5-b596-44010c72b943")
+		(uuid "80041154-10e9-423f-a15a-78f72cede46a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Dependencies/IAUCN04S7L019.stp"

@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "a4d59ef7-d880-40ef-96d3-917930464f5a")
 	(paper "A4")
+	(title_block
+		(title "16P Terminal Breakout")
+		(date "2026-07-15")
+		(rev "1")
+		(company "University of Guelph Robotics Team")
+	)
 	(lib_symbols
 		(symbol "Device:Fuse"
 			(pin_numbers
