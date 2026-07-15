@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "13a2cdeb-49ed-4424-8c7e-da35da16db3f")
+		(uuid "0a1474f3-e7d2-4fca-be67-1db52a5b2a2d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4339f8a6-b455-426c-916c-c8fb72757c52")
+		(uuid "b7377bd7-94c8-4a2b-be73-f35abdbd80df")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3b5a535-4b8e-42e8-984d-198e4ed4971d")
+		(uuid "73b4bee0-2e09-4078-8e43-a7f95fbb76d9")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c99f765d-8090-4b78-98ad-54c4b407cd44")
+		(uuid "fec5101c-afb1-42f7-ad1a-83da013bf2b7")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ffb9650f-b522-4b84-99a3-ad30ca730ab1")
+		(uuid "c346e52a-c4a3-4dcd-bcb2-37d6a0a0204f")
 		(effects
 			(font
 				(size 1 1)
@@ -71,31 +71,42 @@
 		(at 1.225 -1.155)
 		(size 2.45 2.31)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8e4f0f74-42e0-41a3-8412-f693ee0cdd7a")
+		(uuid "50684072-4fe3-4fcf-9308-fe79903c10cb")
 	)
 	(pad "2" smd rect
 		(at 0.25 0.875)
 		(size 0.5 0.63)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "61ffa45a-95cb-44d9-b54c-d95025289e4d")
+		(uuid "4b3dded5-fb9a-4895-858c-5bec2409f20c")
 	)
 	(pad "3" smd rect
 		(at 0.9 0.875)
 		(size 0.5 0.63)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "efe56c6a-fa8f-465e-afb0-15f4e09648c4")
+		(uuid "b47f4504-bcb8-4eac-9403-cb87171625ee")
 	)
 	(pad "4" smd rect
 		(at 1.55 0.875)
 		(size 0.5 0.63)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b22af253-b867-4390-8398-8b12f944036a")
+		(uuid "98a11bb0-c1cb-4970-b250-989117feb9b7")
 	)
 	(pad "5" smd rect
 		(at 2.2 0.875)
 		(size 0.5 0.63)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "de809b96-6842-4187-830e-3c0d096aaa7a")
+		(uuid "cc4f8617-bcda-4378-b123-b6a3071de238")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Dependencies/CSD17575Q3.STEP"
+		(offset
+			(xyz 1.24 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
 )
