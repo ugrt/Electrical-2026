@@ -1,0 +1,247 @@
+(footprint "IAUCN04S7L019"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "IAUCN04S7L019"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "577d5b94-a76a-4090-be07-e2efb049ab70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IAUCN04S7L019"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3ec42ef-dff3-4dd9-b187-76200202ad8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e070bbe-d500-416c-93a1-22698eed0435")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75d72029-09bf-47ff-bbc6-b13a8ec5bf2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0e397c6-33e8-4d85-a6c6-e585e68ab352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.125)
+		(size 4.41 4.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a02d6e50-ce05-4722-9104-e50e272fba7a")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In2.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In3.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In4.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In5.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In6.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In7.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In8.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In9.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In10.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In11.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In12.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In13.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In14.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In15.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In16.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In17.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In18.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In19.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In20.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In21.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In22.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In23.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In24.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In25.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In26.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In27.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In28.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In29.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "In30.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 4.41 4.9)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "2" smd rect
+		(at -0.635 2.995)
+		(size 3.14 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69d948f5-257e-486b-ab86-f144a98d4705")
+	)
+	(pad "3" smd rect
+		(at 1.905 2.995)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "140dae20-eccc-456c-bfc9-566d46f0b225")
+	)
+	(embedded_fonts no)
+)
