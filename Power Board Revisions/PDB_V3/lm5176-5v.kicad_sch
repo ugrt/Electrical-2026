@@ -4111,7 +4111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:CSD17575Q3"
+		(property "Footprint" "Footprints:IAUCN04S7L019"
 			(at 168.91 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5361,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:CSD17575Q3"
+		(property "Footprint" "Footprints:IAUCN04S7L019"
 			(at 168.91 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:CSD17575Q3"
+		(property "Footprint" "Footprints:IAUCN04S7L019"
 			(at 181.61 31.75 0)
 			(hide yes)
 			(show_name no)
