@@ -1,0 +1,176 @@
+(footprint "WSLP2512-6L000"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "acda4bea-df69-4841-b38a-2e189a9be51d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WSLP2512-6L000"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "1222cbb3-89d9-4ede-957e-92d2a9b11472")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/doc?30122"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f01cad9f-17a9-41e4-b77f-74b27f8c7ea5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Vishay WSLP2512 Power Metal Strip shunt, wide terminal, pads per datasheet row (1.65 x 3.68 mm, gap 4.06 mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aea6df46-868c-4de3-b0b4-4e2dc14c08e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6499f7a-4727-49f9-983a-5afa49fd4aab")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0264ba1d-7be6-46bc-9c36-49653973be32")
+	)
+	(fp_line
+		(start -3.925 -2.1)
+		(end -3.925 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b7dafb8-0952-4b99-8eaf-edc641a6af71")
+	)
+	(fp_line
+		(start -3.925 2.1)
+		(end 3.925 2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6cdbd37-fc72-467b-bc7f-a13a19b747c6")
+	)
+	(fp_line
+		(start 3.925 -2.1)
+		(end -3.925 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95e9edef-db68-466f-8401-3a75cbe09549")
+	)
+	(fp_line
+		(start 3.925 2.1)
+		(end 3.925 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d76d47f0-cf2d-42c0-8086-b6d34cd78741")
+	)
+	(fp_line
+		(start -3.175 -1.59)
+		(end -3.175 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a431795-1dfb-42f5-8274-5f79b260b797")
+	)
+	(fp_line
+		(start -3.175 1.59)
+		(end 3.175 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57021c76-2afb-472d-a441-56bc0e1e9226")
+	)
+	(fp_line
+		(start 3.175 -1.59)
+		(end -3.175 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84988cee-9c66-4884-a5cc-810a5142dcc5")
+	)
+	(fp_line
+		(start 3.175 1.59)
+		(end 3.175 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f87bfd7c-88cc-4294-8e11-f42b9e4655c4")
+	)
+	(pad "1" smd rect
+		(at -2.855 0)
+		(size 1.65 3.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23183bac-f3f7-4d9b-ae28-2d58e8f841ff")
+	)
+	(pad "2" smd rect
+		(at 2.855 0)
+		(size 1.65 3.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e38abf7-aaca-4393-80b2-d385307bc56d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

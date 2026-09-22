@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "52654713-d50e-4526-a165-b57e9c1b262a")
+		(uuid "5a71978c-99ac-4f4b-8bf7-e40f18a1641f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "abbe775a-d116-420b-8ee3-dd6de29f75d6")
+		(uuid "110eebc2-7648-46a5-89e2-1afcd1009d13")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b06b64e4-fcf1-4eac-b413-4522239f0159")
+		(uuid "ca64a30d-d07c-4d7f-9d83-5bd23ce61fb5")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a744db70-53f2-4c6c-a448-e800c0b023f5")
+		(uuid "4d14bc95-9a82-4c4d-b718-67ac88decd4b")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "15fd747d-6253-444e-bb25-0166536643bc")
+		(uuid "122b9768-0be6-4f98-a8d8-7b0d443f35b9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "174c529e-1e37-4a34-9678-6f6bcab4e829")
+		(uuid "e6bbc14b-6800-4741-be88-89298c21b358")
 		(effects
 			(font
 				(size 1 1)
@@ -82,7 +82,7 @@
 		(at 0 -1.125)
 		(size 4.41 4.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f7b263cd-42b0-4b34-9ab7-ea18933f9b34")
+		(uuid "afd10a90-7d8d-48d4-8176-8e2dfd9df776")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
@@ -243,16 +243,16 @@
 		)
 	)
 	(pad "2" smd rect
-		(at -0.635 2.995)
-		(size 3.14 1.55)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d9dec4dd-3abb-4649-8674-2d1ecf437a79")
-	)
-	(pad "3" smd rect
 		(at 1.905 2.995)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5e1eb5f7-ef5b-4e99-86b2-0c9414a58ae0")
+		(uuid "0d0b7ee7-2cba-4cf8-b0c9-a5ce2f9c185a")
+	)
+	(pad "3" smd rect
+		(at -0.635 2.995)
+		(size 3.14 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01500375-a156-44d3-99d2-cf9aa8bb6f81")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Dependencies/IAUCN04S7L019.stp"
