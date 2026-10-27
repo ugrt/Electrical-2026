@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Footprints") (type "KiCad") (uri "/Users/ehuber/Documents/GitHub/Electrical-2026/Power Board Revisions/PDB_V3/Dependencies/Footprints.pretty") (options "") (descr ""))
+)
