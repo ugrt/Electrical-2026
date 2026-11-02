@@ -7137,6 +7137,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "160-1179-6-ND"
+			(at 36.83 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83b46a79-94a4-4993-8806-c31e12207fc4")
 		)
@@ -7300,6 +7311,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey Part Number" "497-16579-ND"
+			(at 62.23 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "48"
@@ -7519,6 +7541,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
+			(at 115.57 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e51751f2-372d-4b62-8d8b-f62484d5cef1")
 		)
@@ -7589,6 +7622,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7737,6 +7781,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 43.18 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "MCP2562-E/SN-ND"
 			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7927,6 +7982,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 36.83 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "160-1179-6-ND"
+			(at 36.83 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,6 +8321,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 541-10.0KFCT-ND "
+			(at 90.17 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c91445d0-a8cd-49d7-8032-7256a8e63b5b")
 		)
@@ -8335,6 +8412,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 1276-3093-1-ND "
+			(at 153.67 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "38f4ad49-f39f-409a-9823-79fd8c214e01")
 		)
@@ -8406,6 +8494,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 30.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1276-CL31C100JEF3PNEDKR-ND"
+			(at 30.48 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8544,6 +8643,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Digikey Part Number" " 277-1316-ND "
+			(at 153.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1_1"
@@ -8783,6 +8893,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 1276-3093-1-ND "
+			(at 25.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ff4c560-257f-4c3e-a561-3fbbda598675")
 		)
@@ -8855,6 +8976,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 149.86 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8941,6 +9073,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 30.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "1276-CL31C100JEF3PNEDKR-ND"
+			(at 30.48 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,6 +9253,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "160-1179-6-ND"
 			(at 162.56 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9516,6 +9670,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "541-1.00KFDKR-ND"
+			(at 31.75 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b8df3d8-1b02-4142-acd4-3851ebbee189")
 		)
@@ -9676,6 +9841,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
+			(at 30.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67630cea-37c3-466e-a48b-792e9d807b5a")
 		)
@@ -9746,6 +9922,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
+			(at 66.04 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10153,6 +10340,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 16.51 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PrototypeBoard_V3"
 				(path "/5f3e4d87-760e-4ea3-b375-6916beb40f3e"
@@ -10242,6 +10440,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 111.76 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " B260S1F-7DICT-ND "
+			(at 111.76 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10382,6 +10591,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Digikey Part Number" " 277-1316-ND "
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1_1"
 			(uuid "45461db1-0bfa-4866-8ca2-30bafd04a98d")
 		)
@@ -10453,6 +10673,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 58.42 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
+			(at 58.42 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10829,6 +11060,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Digikey Part Number" " 277-1316-ND "
+			(at 153.67 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1_1"
 			(uuid "2f4c459c-b51c-41df-b5d0-f552fdf16c41")
 		)
@@ -11069,6 +11311,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "4809-SKRPABE010DKR-ND"
+			(at 25.4 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ca4c718e-20b9-4776-906a-cbf94d9e119a")
 		)
@@ -11141,6 +11394,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "541-4193-6-ND"
 			(at 90.17 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11280,6 +11544,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Digikey Part Number" " 277-1316-ND "
+			(at 153.67 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1_2"
@@ -11677,6 +11952,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "541-1.00KFDKR-ND"
+			(at 153.67 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d8d10aea-3d3e-47e1-96bb-78ad28754137")
 		)
@@ -11836,6 +12122,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "4809-SKRPABE010DKR-ND"
+			(at 88.9 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8c7aba5-5fca-46ec-8715-1fcd487e54a6")
 		)
@@ -11907,6 +12204,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 128.27 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " 1276-3093-1-ND "
+			(at 128.27 187.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,6 +12389,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey Part Number" " 1923-830059082CT-ND "
+			(at 22.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12563,6 +12882,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "541-1.00KFDKR-ND"
+			(at 31.75 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3dc2ecfc-8a7c-435c-ab92-e0859cf82566")
 		)
@@ -12713,6 +13043,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 34.29 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
 			(at 34.29 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12889,6 +13230,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey Part Number" "39-A6H-4102-PMDKR-ND"
+			(at 55.88 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13228,6 +13580,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 90.17 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f86dc7a5-4529-46cc-b19f-4bb9e873bba4")
 		)
@@ -13385,6 +13748,17 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
+			(at 109.22 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc1fbc6f-af72-47b5-af87-9d00d4c23459")
 		)
@@ -13457,6 +13831,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "296-50411-6-ND"
 			(at 134.62 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13627,6 +14012,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" " 1276-3369-1-ND "
 			(at 38.1 96.52 0)
 			(hide yes)
 			(show_name no)
