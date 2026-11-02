@@ -1,11 +1,11 @@
 {
   "version": 1,
   "project": "PrototypeBoard_V3.kicad_pro",
-  "current": "2026-10-26_2312",
+  "current": "2026-10-31_2234-2",
   "runs": {
     "2026-10-26_2312": {
       "source_hashes": {
-        "PrototypeBoard_V3.kicad_sch": "sha256:76c03c8c374e60f3b313958ab6462b41bf8bb163585165b54728244b978060d1",
+        "PrototypeBoard_V3.kicad_sch": "sha256:026c5366794f6eb107ac929b79907ce1fa9a7ca5054809b92554001acee88e0f",
         "PrototypeBoard_V3.kicad_pcb": "sha256:b300686ec0b41193c5cd5de8df3649e08d408925a27ef3e8d2a3fc9e0f3ba3ad",
         "schematic.json": "sha256:9c4cd6ca4f52de3b81074ec941a4a4052c58349928ca07c3b3628beac0f7f219",
         "pcb.json": "sha256:5be0b2459fa7fc80ce36571e0e652519be87d3c2e6bd1ec48ecacb9a5098fa24"
@@ -20,7 +20,42 @@
       "scripts": {
         "schematic": "analyze_schematic.py PrototypeBoard_V3.kicad_sch"
       },
-      "generated": "2026-10-26T23:13:07-04:00",
+      "generated": "2026-10-31T22:34:35-04:00",
+      "pinned": false
+    },
+    "2026-10-31_2234": {
+      "source_hashes": {
+        "PrototypeBoard_V3.kicad_pcb": "sha256:05a4d92657aac418a0ec04f440660dad2c0144df39bef82d9501ef720d16919c"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "pcb": "analyze_pcb.py PrototypeBoard_V3.kicad_pcb"
+      },
+      "generated": "2026-10-31T22:34:49-04:00",
+      "pinned": false
+    },
+    "2026-10-31_2234-2": {
+      "source_hashes": {
+        "schematic.json": "sha256:96ee2f6b52f85fa0698238f123f9814c43b82e0c5c42c865db5ea8fee21cf836",
+        "pcb.json": "sha256:3012079a33e55b45c1aaf91e8660edf95b07023c33deeb6b2bdc579be409308c"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "emc": "emc.json",
+        "thermal": "thermal.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-10-31T22:34:49-04:00",
       "pinned": false
     }
   }

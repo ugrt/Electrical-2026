@@ -2022,7 +2022,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net "")
 			(uuid "5e56292a-7c40-4308-a3f8-e96f29bb118b")
 		)
 		(fp_line
@@ -4194,7 +4193,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net "")
 			(uuid "e3b4eb21-1443-4030-bc94-24aff33c9ae5")
 		)
 		(fp_line

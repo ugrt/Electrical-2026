@@ -1,0 +1,6295 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a4d59ef7-d880-40ef-96d3-917930464f5a")
+	(paper "A4")
+	(title_block
+		(title "16P Terminal Breakout")
+		(date "2026-07-15")
+		(rev "1")
+		(company "University of Guelph Robotics Team")
+	)
+	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:1706714"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1706714"
+				(at -2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1706714:PHOENIX_1706714"
+				(at 0.508 9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "08.12.2022"
+				(at 0 -10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0.254 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+				(at 0.254 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "1706714_0_0"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 137.16 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f7a8bf2-f148-4602-85d4-e6ceffa84c95")
+	)
+	(junction
+		(at 171.45 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176dcbbf-6356-4633-b222-1e2cae0aeb82")
+	)
+	(junction
+		(at 137.16 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bdae9c-8637-4bb9-ab00-981fe6492582")
+	)
+	(junction
+		(at 137.16 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c4adea-103e-453b-a08f-9bf10f41e08c")
+	)
+	(junction
+		(at 137.16 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f5126b-a6b1-4f6e-b568-d273ce65650f")
+	)
+	(junction
+		(at 171.45 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4465d940-7894-432a-9af7-7e4f9da5f4e1")
+	)
+	(junction
+		(at 171.45 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b60936a-e449-4e6b-a097-e76efd6c39ed")
+	)
+	(junction
+		(at 137.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f578ca6-faa4-41bd-a265-c40e032a35dc")
+	)
+	(junction
+		(at 137.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80726480-127e-4284-be06-369b83279a08")
+	)
+	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81fc25c8-c1f9-450a-a593-4f23d488c79d")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970c90d7-4618-4fb8-b6a5-3f624b08296a")
+	)
+	(junction
+		(at 137.16 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8391227-3cd6-4004-8e0b-3dd2a1eb3c6e")
+	)
+	(junction
+		(at 171.45 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4937ba3-0844-412e-8c14-fb6601d0c956")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc73c004-5a3c-4be1-804c-a8c2104ecb31")
+	)
+	(junction
+		(at 137.16 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43e3ee0-e5e4-433c-a2ab-78a9e104c6d6")
+	)
+	(junction
+		(at 171.45 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f327e973-0216-4532-b6f1-eea7a7afe77a")
+	)
+	(junction
+		(at 137.16 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47efe2b-3c76-4642-aa7c-5e2b5d8ed25a")
+	)
+	(junction
+		(at 137.16 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f86adcb2-8d43-4193-ab5c-c99093f6313f")
+	)
+	(junction
+		(at 171.45 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f980cc9c-498a-4561-b412-75db6a6e4d98")
+	)
+	(junction
+		(at 137.16 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9bac451-316f-431f-8873-0a180dc9309d")
+	)
+	(wire
+		(pts
+			(xy 135.89 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c66fe3-ccce-4530-9de0-cdc177acfb7e")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0719769d-b708-48e7-a37d-3a733780803d")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efcf51d-ac86-48c7-b3ba-dd94a5a6b0f6")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1276156f-6a12-4c25-91a3-561cddd071b7")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f1dd92-6e60-4792-8a45-8da4ccf7f297")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153952ac-b590-4906-95aa-811e72baf49d")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d1e589-6208-4cbb-83a2-46211e778977")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d76a8ad-002d-47a5-ac84-5ea551c5caf7")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a2547a-229b-416a-95d2-42f6ad7acfe2")
+	)
+	(wire
+		(pts
+			(xy 135.89 137.16) (xy 137.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273021b6-d82e-4019-af43-f37388f7469c")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cff1d5-7e84-4219-9513-a88679700fff")
+	)
+	(wire
+		(pts
+			(xy 135.89 45.72) (xy 137.16 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb7f1b4-4129-4ff1-8bb6-b44a0fbd3371")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6d4296-1ed3-4e83-bc25-be93a202b5d6")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf4634b-cfce-4339-96c1-be0465e4c09f")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff8e867-0de7-44f7-af5f-25a12c162308")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326bc49c-d7d2-4c9f-9ca9-4b26da9abc79")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2a09bb-1753-40c8-bb22-0cb7587411ec")
+	)
+	(wire
+		(pts
+			(xy 135.89 35.56) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e24dbf0-8c55-4a16-b935-078ad0ab9e45")
+	)
+	(wire
+		(pts
+			(xy 135.89 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b4c613-a650-450d-8865-af2d3f40326e")
+	)
+	(wire
+		(pts
+			(xy 171.45 35.56) (xy 171.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46212a63-9409-4a61-9266-5cbe77f129d6")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4836ed75-cdd5-41b8-b3cc-9cdacd5548e3")
+	)
+	(wire
+		(pts
+			(xy 171.45 80.01) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c94c54b-e2d3-4119-b879-17637847ec0e")
+	)
+	(wire
+		(pts
+			(xy 137.16 137.16) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4253ef-0cd0-4a22-8544-78510c7946be")
+	)
+	(wire
+		(pts
+			(xy 152.4 44.45) (xy 144.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea893c3-fd6b-4781-acf3-4134fc7349a2")
+	)
+	(wire
+		(pts
+			(xy 137.16 127) (xy 135.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1a568c-8759-43bd-b7a2-5a4ebed7a16f")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56779018-9249-464a-9f5e-6db5f185fe15")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf9a967-79f1-4450-834b-94dc748c679f")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f7145e-4534-4f5c-89c3-59dc4be869b8")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7348f47e-8db1-4154-a6bd-b5e0f52cba98")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789857db-6a0b-455d-a711-e6b1b4475b9d")
+	)
+	(wire
+		(pts
+			(xy 162.56 35.56) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b844bdb-c09d-471f-8d5e-bf94ac2b1c7e")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d43965f-d429-47f8-8167-b45e0981049e")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7bd3be-eaaa-4d43-a850-fe38e847d369")
+	)
+	(wire
+		(pts
+			(xy 171.45 62.23) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de0b4ce-b74d-4d1e-85f1-5fb88b2fc616")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e818879-d2dd-496c-968a-74181c2dc3c6")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 151.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f39f82-3b17-4230-a968-14afacdebeb1")
+	)
+	(wire
+		(pts
+			(xy 151.13 127) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f7252f-1d4e-48f3-8d30-0df3a67602de")
+	)
+	(wire
+		(pts
+			(xy 152.4 80.01) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825ddac8-e71b-4533-a965-4a3d506c3d29")
+	)
+	(wire
+		(pts
+			(xy 135.89 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84569ccd-6857-4a75-8714-fdd84990fd29")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f4656a-3a46-4fba-ab89-7c47d4bf0511")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86714722-31a9-4683-807d-61d3257b64e8")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ffc67f-7a3b-412e-ba7a-0b2f1458206e")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 137.16 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89496976-b5e9-4765-a060-072db2095e89")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dad58b-df2b-468d-bdde-0ba0c1f51c41")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad1f1c3-6158-45b7-8069-66dd550bf531")
+	)
+	(wire
+		(pts
+			(xy 162.56 62.23) (xy 163.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cde02f0-b774-4c6a-a573-6a469bb5e175")
+	)
+	(wire
+		(pts
+			(xy 137.16 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4ae60d-0c65-4ff4-8427-04fed8d2288f")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987f5552-7039-48e2-9689-96445566c356")
+	)
+	(wire
+		(pts
+			(xy 152.4 71.12) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0de711-8dba-4179-a867-e9e87f7b574e")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29ce8a9-3c43-44e0-928a-4373c88fd706")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98af561-0786-4b82-bd5f-8400657582bc")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22b0d30-e594-4c59-9790-3a7dee01bf1e")
+	)
+	(wire
+		(pts
+			(xy 137.16 129.54) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3323553-ed3c-488d-9159-532929c60233")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b753d5b9-1738-4fbf-9131-265b9038c921")
+	)
+	(wire
+		(pts
+			(xy 171.45 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80cce58-5072-4688-bd4e-a513a45c07a8")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35b95ce-20d2-4c7a-8c7c-9ef07c063245")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c360da61-ad7c-45b3-85fc-2a1275ddb301")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d3fdc8-d9a7-4d67-84fc-5ff872ec6fee")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73668a3-a619-42d7-b61a-350df1815bc6")
+	)
+	(wire
+		(pts
+			(xy 146.05 53.34) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c991c262-54d3-43fe-89df-3469a32bcfa8")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d59e13-1fb3-4500-b3a4-ecb9101c4fb2")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae4a53f-692b-498c-84ed-887d118944c1")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccabacc0-0fa2-4ea9-bf9c-accca111e406")
+	)
+	(wire
+		(pts
+			(xy 137.16 114.3) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d458b15a-322a-4d8d-a7cb-2b0781a4c0ac")
+	)
+	(wire
+		(pts
+			(xy 162.56 44.45) (xy 163.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c9b569-7b2d-4184-8fb4-9c7954abd317")
+	)
+	(wire
+		(pts
+			(xy 135.89 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7669035-a637-48fb-8bbe-1eb9e05d86bf")
+	)
+	(wire
+		(pts
+			(xy 135.89 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd33d75f-981a-4a2f-b8a7-ef27b1f06f42")
+	)
+	(wire
+		(pts
+			(xy 137.16 35.56) (xy 152.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1eab587-20fe-4c1e-8e21-2bc4351c6ac5")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d36170-c2f6-41b8-b171-17966e762cbe")
+	)
+	(wire
+		(pts
+			(xy 135.89 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dfa473-c37f-4970-b800-e56e72530d14")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49219b0-e35f-40c5-8f11-53edf919ed5a")
+	)
+	(wire
+		(pts
+			(xy 171.45 44.45) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f657f096-418d-4704-93bf-85d7f5699ca8")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78ee621-dec4-43c8-b5e7-c8c1a8b6b601")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ce6e1a-aa07-4653-acd7-f521822616ad")
+	)
+	(wire
+		(pts
+			(xy 144.78 44.45) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4aab47-fb4a-4ccf-b496-4b99156af0d8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 185.42 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2006300d-6c3d-48c0-bda8-e8c5fbc8a288")
+	)
+	(hierarchical_label "VOut"
+		(shape input)
+		(at 185.42 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53b89db4-ab33-46d5-b6f1-c0a54685ef02")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01278d70-b623-4bbb-b81d-14d623cc5190")
+		(property "Reference" "#PWR047"
+			(at 143.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73fd5198-bbd8-404d-8ce0-8e88bd99b285")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "058ffacd-f101-4124-b541-8aae2612a6c3")
+		(property "Reference" "J34"
+			(at 127.635 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 139.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 137.668 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "221fff08-8bf1-4d0f-8213-56314f341720")
+		)
+		(pin "1_1"
+			(uuid "c40b2af3-df47-4837-9120-4c72b43e98a1")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J66")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J50")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J34")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d6a37a0-7bd5-4e36-a53a-709f9fcaf85f")
+		(property "Reference" "F12"
+			(at 167.64 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33598411-9ec7-4ca4-a7b7-267c026b04f4")
+		)
+		(pin "2"
+			(uuid "eebc58e1-7242-487d-8859-c5bb8ea9ae66")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F28")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F20")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e4e039-3bb7-43bb-9de6-2ddf3a447ea2")
+		(property "Reference" "J26"
+			(at 127.635 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 78.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 57.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "f62bf69f-fbc9-4820-a396-022139470ab6")
+		)
+		(pin "1_1"
+			(uuid "afb2fc60-2f7c-43a1-be2c-46281ece053f")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J58")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J42")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J26")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ed861c-c865-4c71-8727-8bf021d4f80e")
+		(property "Reference" "F10"
+			(at 167.64 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9921db6c-6d9c-4b6d-9dd2-676a61071de1")
+		)
+		(pin "2"
+			(uuid "4c05b5c8-f501-4a81-8c6f-441099b92254")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F26")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F18")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e749b0-0aac-48e8-8c34-835256947e26")
+		(property "Reference" "J22"
+			(at 127.635 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 48.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 27.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 46.228 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "0f401222-4f6d-4c69-bb0c-10e98a817f08")
+		)
+		(pin "1_1"
+			(uuid "127d54fa-0ace-4328-896e-c34abf44eb4f")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J54")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J38")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bcae3a9-173b-4953-bcf4-21a884f94d18")
+		(property "Reference" "#PWR051"
+			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d5dc24-5ae7-47c2-82a7-009035047204")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ceb4f8d-dfdc-4d3a-9992-6b6ad13ad1db")
+		(property "Reference" "J35"
+			(at 127.635 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 147.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "a4957068-f640-43ac-8a1a-3ff80766f00a")
+		)
+		(pin "1_1"
+			(uuid "9bf817a6-9221-4136-ac98-238b72024084")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J67")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J51")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J35")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 106.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de16fed-c2bb-4d75-8f93-3eddae19b48e")
+		(property "Reference" "J31"
+			(at 127.635 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 116.586 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 96.012 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "7b0b2a43-ba2f-4e55-af1b-16350aa8292c")
+		)
+		(pin "1_1"
+			(uuid "7a906cf1-7f96-4943-b7d4-b0d22e7f6529")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J63")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J47")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J31")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9ad154-f6f1-4af2-ae69-b7561705ea2e")
+		(property "Reference" "F15"
+			(at 167.64 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5949660d-93bb-4427-85b0-fb156ca19382")
+		)
+		(pin "2"
+			(uuid "41891a06-2519-42c7-ae1d-b6acc0902b7f")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F31")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F23")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F15")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a0f800-db31-4727-afef-1b2724b2b7d1")
+		(property "Reference" "SW11"
+			(at 157.48 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be0287fa-9f22-45bd-af2e-4757039fdebb")
+		)
+		(pin "2"
+			(uuid "7c929d1d-77f7-48c5-b2f7-1ffcbc233c1b")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW27")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW19")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW11")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39e41c3b-1664-48f5-9741-9f70c0ce2e9c")
+		(property "Reference" "J29"
+			(at 127.635 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 80.772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 99.568 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "089fe690-a4be-4e8d-b3e9-abc78acd8c62")
+		)
+		(pin "1_1"
+			(uuid "131e716d-e402-4679-9ddc-67cbc8261304")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J61")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J45")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J29")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e09484e-0e3b-4df1-83b8-a13b32e1f5f5")
+		(property "Reference" "J30"
+			(at 127.635 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "bc0d6c1b-c64b-46f3-bfba-5f8bbbc94069")
+		)
+		(pin "1_1"
+			(uuid "4fd1d216-0f84-463e-9932-73e2aafd64f1")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J62")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J46")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J30")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "441aa496-0ad9-4001-9484-b9e9fd78e5f8")
+		(property "Reference" "J27"
+			(at 127.635 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 65.532 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "6014534e-4119-4fe4-b0b2-5cb6f9d55fc7")
+		)
+		(pin "1_1"
+			(uuid "3a3fc636-9ca4-424b-aa58-e5b697c40d28")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J59")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J43")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J27")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4249db-52f1-49d4-87fa-8e93732efa48")
+		(property "Reference" "J25"
+			(at 127.635 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 70.866 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 50.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "b519adb6-8bf2-428c-bbc4-b6d2195ca3ac")
+		)
+		(pin "1_1"
+			(uuid "05d40381-63ad-49ad-bce0-19edd1d1e3b5")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J57")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J41")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J25")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "693c01ec-98ff-4a9e-b6ca-a1dd09627e86")
+		(property "Reference" "SW15"
+			(at 157.48 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee9a20ac-ec65-4ca3-b292-006ba31e2f47")
+		)
+		(pin "2"
+			(uuid "d5b6c84e-0ea1-4f2f-aa2b-0506ed837116")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW31")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW23")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW15")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a17c268-5c04-442d-9024-438a1d948cb3")
+		(property "Reference" "SW13"
+			(at 157.48 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fe81a0f-23e3-49ce-a647-f89a1d940e2e")
+		)
+		(pin "2"
+			(uuid "4c00eb54-1333-4f10-9121-0a241b3213a4")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW29")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW21")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW13")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70ce03ef-5b61-4af5-b73d-90d4a0cbcd28")
+		(property "Reference" "F14"
+			(at 167.64 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3258e7d0-a50c-43d9-832f-68910e6337fc")
+		)
+		(pin "2"
+			(uuid "fa6ab34e-4408-49a6-ace5-fd580b8bd0b9")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F30")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F22")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F14")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7460a603-809d-419b-ae33-982c63bcdb18")
+		(property "Reference" "#PWR039"
+			(at 179.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d442f0b-e5fd-43aa-90c8-a2e4c7291d90")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78e24ab4-c5e0-43d3-b180-9a0a18f21f6e")
+		(property "Reference" "#PWR063"
+			(at 143.51 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be6ce7d8-efc9-4684-b793-1f624ae064d8")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6f7d3e-7669-48c7-9e3f-ed1adbe6a57c")
+		(property "Reference" "F9"
+			(at 167.64 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 37.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01bb11fe-85f9-469c-bc0d-7e3309c97f8b")
+		)
+		(pin "2"
+			(uuid "70be9d8e-69ec-4136-928f-857655aac4a9")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F25")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F17")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9944e836-fb7c-4df6-99a1-e7828bc0a8bf")
+		(property "Reference" "J23"
+			(at 127.635 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 55.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 35.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 53.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "23e5cc69-1028-4dd4-b280-6d9d0cabefac")
+		)
+		(pin "1_1"
+			(uuid "5d805035-6899-42ae-bb3b-205412e5f005")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J55")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J39")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J23")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d0ec03-5b85-418a-bf59-24dc05ceecc2")
+		(property "Reference" "J24"
+			(at 127.635 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "79fd78a8-05a4-4544-b64c-245baa24514c")
+		)
+		(pin "1_1"
+			(uuid "bfc1efca-d4ce-41b3-9e18-9a344fb3e68b")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J56")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J40")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J24")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2b8459-3599-4423-852a-700cdc0b54cf")
+		(property "Reference" "SW14"
+			(at 157.48 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61ade7b9-655f-48b1-ac45-b4ee7a195fa2")
+		)
+		(pin "2"
+			(uuid "4f0f4eba-2b82-4f45-b969-171856c3dd12")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW30")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW22")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW14")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e40706-5ccc-49a5-957e-be1918048f2d")
+		(property "Reference" "SW10"
+			(at 157.48 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5567f03-045b-4152-8d32-cd57d0e21704")
+		)
+		(pin "2"
+			(uuid "8b3a301d-20ae-45e5-961a-f7861091000f")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW26")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW18")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW10")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1cd4c7d-3a95-43da-b1bb-5dacf99b48a9")
+		(property "Reference" "#PWR043"
+			(at 143.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8788d7a7-62aa-43be-896a-97a719d38b41")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6809476-386d-4827-a28e-e4613b3a261d")
+		(property "Reference" "J28"
+			(at 127.635 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 93.726 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 73.152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 91.948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "572df5b8-73fc-4e21-b6e4-7e8b66613ef4")
+		)
+		(pin "1_1"
+			(uuid "a292113b-9d90-49bb-a665-c4f84ca8f337")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J60")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J44")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J28")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0b51d5-61ba-4605-a3a3-e33c872f60f0")
+		(property "Reference" "J32"
+			(at 127.635 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 124.206 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 103.632 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 122.428 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "4fdc95b8-ea5c-4923-894a-b93d05dfdcf1")
+		)
+		(pin "1_1"
+			(uuid "355f4c6f-f5dd-430f-90b3-5f820fcde527")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J64")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J48")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0d4bc2-9874-4e8b-b12b-bd06c2238a95")
+		(property "Reference" "#PWR055"
+			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 88.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b923304-feaa-4b3e-be18-459f5a527cfa")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:1706714")
+		(at 128.27 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3f4a739-075c-4dc0-b5ee-f5f40ee0ddb7")
+		(property "Reference" "J33"
+			(at 127.635 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1706714"
+			(at 127.635 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:Phoenix 1706714"
+			(at 127.762 131.826 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 128.27 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.016 130.048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 128.016 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 128.27 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1_2"
+			(uuid "ad88aa5f-b42a-406f-ab42-1b3c9655b264")
+		)
+		(pin "1_1"
+			(uuid "cd1ef7f9-11b2-4d0c-ac5f-4419e3cff0b3")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "J65")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "J49")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "J81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9b22d3f-b8d4-4daf-a16e-9c7bb903bf9c")
+		(property "Reference" "#PWR059"
+			(at 143.51 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e42ee966-4b0b-488f-8c87-1f1b0eea3db1")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee46f03f-0b31-41e5-bd9e-bae6dc2e93d6")
+		(property "Reference" "F11"
+			(at 167.64 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "211c9770-0fc2-44c7-adb4-801c19c26ece")
+		)
+		(pin "2"
+			(uuid "698c297c-5720-4437-b633-029146ffecee")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F27")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F19")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f09404dd-0b55-4bc5-9927-802558b66801")
+		(property "Reference" "SW12"
+			(at 157.48 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2d22955-6f48-4fc1-9851-5c08af2b7b18")
+		)
+		(pin "2"
+			(uuid "2fb950f4-afc6-4cd4-97f6-bf33372fc16d")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW28")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW20")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW12")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2426791-542c-441a-a720-0446f4757974")
+		(property "Reference" "#PWR067"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb4c44cb-e89d-4162-a9d8-40ec71647467")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 157.48 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f28c1fda-6c05-4604-a451-199f5bd18adc")
+		(property "Reference" "SW9"
+			(at 157.48 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 157.48 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:ESwitch 1101A4CQEA"
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "115be6f7-5362-479c-a6b5-d84e1c3a728e")
+		)
+		(pin "2"
+			(uuid "7f98cd44-c0a6-41a3-b562-5e290b0c44e8")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "SW25")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "SW17")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "SW9")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 167.64 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6bce47a-9975-411b-8715-3277371963af")
+		(property "Reference" "F13"
+			(at 167.64 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 167.64 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:FUSE_3557-2"
+			(at 167.64 72.898 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price" ""
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "36-3557-2-ND"
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 167.64 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3293b049-5bda-4853-b2f0-67fd9dda84b1")
+		)
+		(pin "2"
+			(uuid "e67a5ca2-fb2f-46ca-8056-7c16b236a928")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "F29")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "F21")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "F13")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "F37")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

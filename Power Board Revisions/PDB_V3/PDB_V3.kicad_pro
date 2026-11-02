@@ -753,7 +753,7 @@
         "uuid": "d623a6fb-0e34-47df-a22c-f61ac1f9a24a"
       }
     ],
-    "used_designators": "H5-7,J1,J3-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -776,6 +776,22 @@
     [
       "8f056ee5-fa23-431f-95f4-bbf4db672d00",
       "lm5176 12v Channel 2"
+    ],
+    [
+      "ceb49347-6d9e-4427-81fc-fb07fd7faaf2",
+      "Terminal Block1"
+    ],
+    [
+      "c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f",
+      "Terminal Block2"
+    ],
+    [
+      "0c8d66fc-d324-4a29-8271-873d882a2fe1",
+      "Terminal Block3"
+    ],
+    [
+      "e3cbe110-2e02-4dcb-ae26-2fb0fd011266",
+      "Terminal Block4"
     ]
   ],
   "text_variables": {},
