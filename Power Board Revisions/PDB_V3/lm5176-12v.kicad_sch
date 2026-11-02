@@ -4855,7 +4855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:WE-HCM_1411"
+		(property "Footprint" "Footprints:WE-HCC_1210_FERRITE"
 			(at 157.48 45.72 0)
 			(hide yes)
 			(show_name no)

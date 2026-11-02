@@ -11,6 +11,172 @@
 		(company "University of Guelph Robotics Team")
 	)
 	(lib_symbols
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -641,6 +807,12 @@
 		)
 	)
 	(junction
+		(at 176.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c3cd5ec-afbb-4b46-8026-a6b8d00579b1")
+	)
+	(junction
 		(at 137.16 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -869,6 +1041,16 @@
 			(type default)
 		)
 		(uuid "29cff1d5-7e84-4219-9513-a88679700fff")
+	)
+	(wire
+		(pts
+			(xy 176.53 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b465e1c-2209-40ea-aa37-0612f7f53b08")
 	)
 	(wire
 		(pts
@@ -1302,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 35.56) (xy 185.42 35.56)
+			(xy 171.45 35.56) (xy 176.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1759,6 +1941,100 @@
 				)
 				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
 					(reference "J82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 176.53 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0647589d-e83b-4c9c-b044-025ced3b5191")
+		(property "Reference" "D1"
+			(at 179.07 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 179.07 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 176.53 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efc68cff-fa0b-49dd-a243-5a1fef5b36e7")
+		)
+		(pin "2"
+			(uuid "79812aa8-1799-4f2d-8ba5-0061203dd09b")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5003,6 +5279,96 @@
 				)
 				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 27.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3cf6333-71c1-4d41-b457-ce9d630c80f5")
+		(property "Reference" "#PWR042"
+			(at 176.53 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa0cb81d-983f-4ba4-986b-9ec474469176")
+		)
+		(instances
+			(project "PDB_V3"
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/0c8d66fc-d324-4a29-8271-873d882a2fe1"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/c0435f8f-7bb4-4bb1-9210-37c4f1a5e62f"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/ceb49347-6d9e-4427-81fc-fb07fd7faaf2"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/d623a6fb-0e34-47df-a22c-f61ac1f9a24a/e3cbe110-2e02-4dcb-ae26-2fb0fd011266"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

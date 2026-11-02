@@ -42,8 +42,10 @@
     },
     "2026-10-31_2234-2": {
       "source_hashes": {
-        "schematic.json": "sha256:96ee2f6b52f85fa0698238f123f9814c43b82e0c5c42c865db5ea8fee21cf836",
-        "pcb.json": "sha256:3012079a33e55b45c1aaf91e8660edf95b07023c33deeb6b2bdc579be409308c"
+        "schematic.json": "sha256:22d6bb38de3935f6e39dd11d1d59203babd00b3cff6990fed6e84596d51eb6fd",
+        "pcb.json": "sha256:d25202fe5fa68591310e0c8f85bac5d348bb5130dae6eb34a7ed03f1011cbe7b",
+        "PrototypeBoard_V3.kicad_sch": "sha256:95be0f0d489895bb739cd44db6a68b6daa3a0930b85ce0374b7815f557445611",
+        "PrototypeBoard_V3.kicad_pcb": "sha256:8e008bf861ef8cd4fc5934753513697e5212c88fdc25119f2603caf35e4918fe"
       },
       "outputs": {
         "schematic": "schematic.json",
@@ -55,7 +57,7 @@
       "scripts": {
         "emc": "analyze_emc.py"
       },
-      "generated": "2026-10-31T22:34:49-04:00",
+      "generated": "2026-11-01T21:31:02-05:00",
       "pinned": false
     }
   }
